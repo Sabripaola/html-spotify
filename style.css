@@ -1,0 +1,140 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Montserrat', sans-serif;
+}
+/* SIDEBAR */
+.wrapper{
+  width:100vw;
+  height:100vh;
+  overflow:hidden;
+  background:black;
+}
+.sidebar{
+  width:15%;
+  height:90%;
+  float:left;
+}
+.sidebar_container{
+  width:100%;
+  height:100%;
+  background:black;
+}
+.sidebar_content{
+  width:100%;
+  height:85%;
+}
+.sidebar_content img{
+  width:130px;
+  margin:30px auto;
+}
+.sidebar_content a{
+  display:block;
+  padding-bottom:20px;
+  padding-left:30px;
+  font-weight:bold;
+  font-size:15px;
+  color:#696a67;
+}
+.sidebar_content a:hover, .sidebar_content i:hover{
+  color:white;
+  text-decoration:none;
+}
+.sidebar_content h5{
+  text-transform:uppercase;
+  font-weight:bold;
+  padding-left:30px;
+  padding-bottom:10px;
+}
+.sidebar_content h5, .sidebar_content h6{
+  color:#696a67;
+}
+.sidebar_content h6{
+  padding-left:30px;
+}
+.sidebar_content h6:nth-of-type(2){
+  text-transform:uppercase;
+  padding-bottom:10px;
+}
+.sidebar_content h6:nth-last-of-type(1){
+  text-transform:uppercase;
+}
+.sidebar_content i{
+  padding-right:10px;
+  color:#696a67;
+}
+.green i, .green a{
+  color:#1db954;
+}
+/* MAIN */
+.main_container{
+  width:85%;
+  height:90%;
+  background:#212529;
+  float:left;
+  overflow-y: scroll;
+}
+.main_navbar{
+  width:100%;
+  height:15%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.main_navbar a{
+  padding-right:15px;
+  text-transform:uppercase;
+  font-weight:bold;
+  color:#696a67;
+}
+.main_navbar a:hover{
+  text-decoration:none;
+  color:white;
+}
+.green_line{
+  width:30px;
+  height:3px;
+  background:#1db954;
+  display:block;
+  margin:0 auto;
+}
+.navbar{
+  display:none;
+}
+.img_main_container_top{
+  width:100%;
+  display:flex;
+  justify-content:space-around;
+  align-items:baseline;
+}
+.img_main_content{
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding-right:20px;
+}
+.spotify_main_content h1{
+  color:white;
+  padding-left:20px;
+  font-weight:bold;
+}
+.img_main_content img{
+  width:200px;
+  cursor:pointer;
+}
+.img_main_container_top{
+  padding-top:20px;
+  padding-left:30px;
+  padding-bottom:20px;
+}
+.img_main_content h6{
+  text-align:center;
+  color:white;
+}
+.img_main_content p{
+  text-align:center;
+  font-size:12px;
+  color:#696a67;
+}
